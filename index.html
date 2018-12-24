@@ -37,7 +37,11 @@
     <link href="css/animate.css" rel="stylesheet">
 
     <link href="css/responsive.css" rel="stylesheet">
+    <?php
 
+        include "contact.php";
+
+    ?> 
 </head>
 
 <body>
@@ -98,7 +102,7 @@
                         <div class="home_text">
 
                             <h1>Web<font color="green">Dev</font></h1>
-                            <p>Создадим сайт от 7990 рублей</p>
+                            <p>Создадим для вас сайт от 7990 рублей</p>
 
                             <div class="download-btn">
 
@@ -125,7 +129,7 @@
 
                     <div class="section_title">
                         <h2>О нас</h2>
-                        <p>Создаем красивые сайты для вас</p>
+                        <p>Создадим для вас сайт от 7990 рублей</p>
                     </div>
                 </div>
 
@@ -276,7 +280,7 @@
                             <div><span class="pe-7s-like"></span></div>
 
                             <h3>Нас выбрали множество компаний<span>/</span></h3>
-                            <p>Я не знаю что тут писать </p>
+                            <p>Нас выбирают знаменитые компании</p>
                         </div>
 
 
@@ -284,8 +288,8 @@
                         <div class="left_single_feature">
                             <div><span class="pe-7s-science"></span></div>
 
-                            <h3>Укажем точную дату выполнения сайта<span>/</span></h3>
-                            <p>При заказе вы узнаете точную дату когда ваш сайт будет готов</p>
+                            <h3>Цена<span>/</span></h3>
+                            <p>Приемлимые цены</p>
                         </div>
 
 
@@ -293,7 +297,7 @@
                             <div><span class="pe-7s-look"></span></div>
 
                             <h3>Креативность<span>/</span></h3>
-                            <p>Создание не только много функциональных сатов, но и красивых</p>
+                            <p>Создадим для вас не только многофункциальный, но и красивый сайт</p>
                         </div>
 
                     </div>
@@ -373,7 +377,7 @@
 
                     <div class="section_title">
                         <h2>Связаться с нашим менеджером</h2>
-                        <p>Для того чтобы заказать сайт или задать нам вопрос, то вам надо заполнить </p>
+                        <p>Для того чтобы заказать сайт или задать нам вопрос, то вам надо заполнить форму находящуюся чуть ниже и нажать на кнопку "ОТПРАВИТЬ ПИСЬМО"</p>
                     </div>
                 </div>
             </div>
@@ -382,30 +386,22 @@
                 <div class="container">
 
 
-                    <div class="form_error text-center">
+                  <div class="form_error text-center">
                         <div class="name_error hide error">Пожалуйста введите ваше имя</div>
                         <div class="email_error hide error">Пожалуйста введите ваш email</div>
                         <div class="email_val_error hide error">Пожалуйста тему сообщения</div>
                         <div class="message_error hide error">Введите ваше сообщение</div>
                     </div>
-                    <div class="Sucess"></div>
-   
-                    <form role="form" action="contact.php">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <input type="text" class="form-control" id="name" placeholder="Имя">
-                                <input type="email" class="form-control" id="email" placeholder="Email">
-                                <input type="text" class="form-control" id="subject" placeholder="Тема">
-                            </div>
-
-
-                            <div class="col-md-8">
-                                <textarea class="form-control" id="message" rows="25" cols="10" placeholder="  Текст сообщения..."></textarea>
-                                <button type="button" class="btn btn-default submit-btn form_submit">ОТПРАВИТЬ ПИСЬМО</button>
-                            </div>
+                             <form name = "MyForm" id = "callbacks" action = "" method = "post">
+                              <input name = "name" type = "text" placeholder = "Ваше имя" /><br/><br/>
+                               <input name = "phone" type = "tel" placeholder = "Ваш телефон" /><br/><br/>
+                            <textarea name = "body" placeholder = "Ваше сообщение"></textarea><br/><br/>
+                             <input id = "submit" type = "submit" name = "done"/>
+                            </form>
+                <div id = "erconts" style = "display: none">
+            </div>
                         </div>
                     </form>
-
                 </div>
             </div>
 
@@ -459,7 +455,6 @@
     <script src="js/waypoints.min.js"></script>
     <script src="js/jquery.counterup.min.js"></script>
     <script src="js/script.js"></script>
-
-
+    
 </body>
 </html>
