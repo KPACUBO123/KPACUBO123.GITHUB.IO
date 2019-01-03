@@ -1,468 +1,268 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>WebDev</title>
-
-    <link href='https://fonts.googleapis.com/css?family=Raleway:500,600,700,800,900,400,300' rel='stylesheet' type='text/css'>
-
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,300italic,400italic' rel='stylesheet' type='text/css'>
-
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-
-    <link href="css/owl.carousel.css" rel="stylesheet">
-    <link href="css/owl.theme.css" rel="stylesheet">
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <title>Web Store</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  
+  <meta property="og:title" content="">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="">
+	<meta property="og:site_name" content="">
+	<meta property="og:description" content="">
 
 
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900|Montserrat:400,700' rel='stylesheet' type='text/css'>
+  
 
-    <link rel="stylesheet" href="css/Pe-icon-7-stroke.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
 
-
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-
-
-
-    <link href="css/prettyPhoto.css" rel="stylesheet">
-    
-
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-
-
-    <link href="css/style.css" rel="stylesheet">
-
-    <link href="css/animate.css" rel="stylesheet">
-
-    <link href="css/responsive.css" rel="stylesheet">
-    <?php
-
-        include "contact.php";
-
-    ?> 
+  <script src="js/modernizr-2.7.1.js"></script>
+  
 </head>
 
 <body>
 
-    <div class="spn_hol">
-        <div class="spinner">
-            <div class="bounce1"></div>
-            <div class="bounce2"></div>
-            <div class="bounce3"></div>
+    
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="logo" href="index.html"><img src="img/logo.svg" alt="Logo"></a>
         </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#pricing" class="scroll">Цены</a></li>
+            <li><a href="#invite">Заказать</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-
-
-    <section class="header parallax home-parallax page" id="HOME">
-        <h2></h2>
-        <div class="section_overlay">
-            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-                <div class="container">
-
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#">
-                            <img src="images/logo.png" alt="Logo">
-                        </a>
-                    </div>
-
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-right">
-
-                            <li><a href="#HOME">Главная</a> </li>
-                            <li><a href="#ABOUT">О нас</a> </li>
-                            <li><a href="#FEATURES">Почему мы</a></li>
-                            <li><a href="#DOWNLOAD">Как заказать сайт</a> </li>
-                            <li><a href="#CONTACT">Заказть сайт</a> </li>
-                        </ul>
-                    </div>
-
-                </div>
-
-            </nav>
-
-            <div class="container home-container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="logo text-center">
-
-                            <img width="125" height="55" src="images/logo.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-8 col-sm-8">
-                        <div class="home_text">
-
-                            <h1>Web<font color="green">Dev</font></h1>
-                            <p>Создадим для вас сайт от 7990 рублей</p>
-
-                            <div class="download-btn">
-
-                                <a class="btn home-btn wow fadeInLeft" href="#DOWNLOAD">Заказать сайт</a>
-                                <a class="tuor btn wow fadeInRight" href="#ABOUT">О нас<i class="fa fa-angle-down"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-md-offset-1 col-sm-4">
-                        <div class="home-iphone">
-                            <img src="images/iPhone_Home.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
+        
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6">
+            <a href="index.html"><img src="img/logo.svg" alt="Logo"></a>
+          </div>
+          <div class="col-xs-6 signin text-right navbar-nav">
+            <a href="#pricing" class="scroll">Цены</a>&nbsp; &nbsp;<a href="#invite">Заказать</a>
+          </div>
         </div>
-    </section>
-
-
-    <section class="about page" id="ABOUT">
-        <div class="container">
+        
+        <div class="row header-info">
+          <div class="col-sm-10 col-sm-offset-1 text-center">
+            <h1 class="wow fadeIn">Web Store</h1>
+            <br />
+            <p class="lead wow fadeIn" data-wow-delay="0.5s">Напишем сайт для вас.<br>
+            </p>
+            <br />
+              
             <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-
-                    <div class="section_title">
-                        <h2>О нас</h2>
-                        <p>Создадим для вас сайт от 7990 рублей</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <div class="inner_about_area">
-            <div class="container">
+              <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                 <div class="row">
-                    <div class="col-md-6">
-                        <div class="about_phone wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
-
-                            <img src="images/about_iphone.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-6  wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
-
-                        <div class="inner_about_title">
-                            <h2>Почему именно мы<br>для вас</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        </div>
-                        <div class="inner_about_desc">
-
-
-                            <div class="single_about_area fadeInUp wow" data-wow-duration=".5s" data-wow-delay="1s">
-
-                                <div><i class="pe-7s-timer"></i></div>
-
-                                <h3>Выполнение заказа в сроки</h3>
-                                <p>Ваш сайт будет сделан точно в указанный срок</p>
-                            </div>
-
-                            <div class="single_about_area fadeInUp wow" data-wow-duration=".5s" data-wow-delay="1.5s">
-
-                                <div><i class="pe-7s-target"></i></div>
-
-                                <h3>Точно подберем стиль и дизайн сайта</h3>
-                                <p>Наши програмисты сделают не только много функциональный сайт, но он так же будет красивым</p>
-                            </div>
-
-
-
-
-                            <div class="single_about_area fadeInUp wow" data-wow-duration=".5s" data-wow-delay="2s">
-
-                                <div><i class="pe-7s-stopwatch"></i></div>
-
-                                <h3>Укажем точную дату выполнения сайта</h3>
-                                <p>При заказе вы узнаете точную дату когда ваш сайт будет готов</p>
-                            </div>
-
-
-                        </div>
-                    </div>
+                  <div class="col-xs-6 text-right wow fadeInUp" data-wow-delay="1s">
+                    <a href="#be-the-first" class="btn btn-secondary btn-lg scroll">Узнать больше</a> 
+                  </div>
+                  <div class="col-xs-6 text-left wow fadeInUp" data-wow-delay="1.4s">
+                    <a href="#be-the-first" class="btn btn-primary btn-lg scroll">Заказать</a>
+                  </div>
                 </div>
+              </div>
             </div>
+            
+          </div>
         </div>
-    </section>
-
-    <section id="TESTIMONIAL" class="testimonial parallax">
-        <div class="section_overlay">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 wow bounceInDown">
-                        <div id="carousel-example-caption-testimonial" class="carousel slide" data-ride="carousel">
-
-                            <ol class="carousel-indicators">
-                                <li data-target="#carousel-example-caption-testimonial" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-example-caption-testimonial" data-slide-to="1"></li>
-                                <li data-target="#carousel-example-caption-testimonial" data-slide-to="2"></li>
-                            </ol>
-
-
-                            <div class="carousel-inner">
-                                <div class="item active">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-md-12 text-center">
-
-                                                <img src="images/client_1.png" alt="">
-                                                <div class="testimonial_caption">
- 
-                                                    <h2>Никита Никитин</h2>
-                                                    <h4><span>Главный деректор</span> WebDev</h4>
-                                                    <p>Тут вы сами напишите что хотите</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-md-12 text-center">
-
-                                                <img src="images/client_2.png" alt="">
-                                                <div class="testimonial_caption">
-
-                                                    <h2>Антон Шабалов</h2>
-                                                    <h4><span>Главный программист</span> WebDev</h4>
-                                                    <p>Тут вы сами напишите что хотите</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-md-12 text-center">
-
-                                                <img src="images/client_3.png" alt="">
-                                                <div class="testimonial_caption">
-
-                                                    <h2>Антон Фадеенков</h2>
-                                                    <h4><span>Какой-то левый человек</span>WebDev</h4>
-                                                    <p>Тут пока будет пусто</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="FEATURES" class="features page">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-                    <div class="section_title wow fadeIn" data-wow-duration="1s">
-                        <h2>Почему именно мы</h2>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="feature_inner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 right_no_padding wow fadeInLeft" data-wow-duration="1s">
-
-                        <div class="left_single_feature">
-                            <div><span class="pe-7s-like"></span></div>
-
-                            <h3>Нас выбрали множество компаний<span>/</span></h3>
-                            <p>Нас выбирают знаменитые компании</p>
-                        </div>
-
-
-
-                        <div class="left_single_feature">
-                            <div><span class="pe-7s-science"></span></div>
-
-                            <h3>Цена<span>/</span></h3>
-                            <p>Приемлимые цены</p>
-                        </div>
-
-
-                        <div class="left_single_feature">
-                            <div><span class="pe-7s-look"></span></div>
-
-                            <h3>Креативность<span>/</span></h3>
-                            <p>Создадим для вас не только многофункциальный, но и красивый сайт</p>
-                        </div>
-
-                    </div>
-                    <div class="col-md-4">
-                        <div class="feature_iphone">
-                            <img class="wow bounceIn" data-wow-duration="1s" src="images/iPhone02.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-4 left_no_padding wow fadeInRight" data-wow-duration="1s">
-
-
-                        <div class="right_single_feature">
-
-                            <div><span class="pe-7s-monitor"></span></div>
-
-
-                            <h3><span>/</span>Гарнатия качества</h3>
-                            <p>Гарантируем отличный результат за оправданную цену </p>
-                        </div>
-
-
-
-
-                        <div class="right_single_feature">
-
-                            <div><span class="pe-7s-phone"></span></div>
-
-
-                            <h3><span>/</span>Ценим своего клиента</h3>
-                            <p>Уважаем клиента и ценим его доверие и время </p>
-                        </div>
-
-
-
-                        <div class="right_single_feature">
-                            <div><span class="pe-7s-gleam"></span></div>
-                            <h3><span>/</span>Выполнение заказа в сроки</h3>
-                            <p>Ваш сайт будет сделан точно в указанный срок</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="download page" id="DOWNLOAD">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-
-                    <div class="section_title">
-                        <h2>Как заказать у нас сайт</h2>
-                        <p>После заполнения бланка, с вами свяжется наш менеджер с ним вы все обсудите. Чего же вы ждете, кнопка заказть ниже!</p>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <div class="download_screen text-center wow fadeInUp" data-wow-duration="1s">
-                        <img src="images/download_screen.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-
+      </div>
+    </header>
     
-
-
- <section class="contact page" id="CONTACT">
-        <div class="section_overlay">
-            <div class="container">
-                <div class="col-md-10 col-md-offset-1 wow bounceIn">
-
-                    <div class="section_title">
-                        <h2>СВЯЗАТЬСЯ С НАШИМ МЕНЕДЖЕРОМ</h2>
-                        <p>Для того чтобы заказать сайт или задать нам вопрос, то вам надо заполнить форму находящуюся чуть ниже и нажать на кнопку "ОТПРАВИТЬ ПИСЬМО"</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="contact_form wow bounceIn">
-                <div class="container">
-
-
-                    <div class="form_error text-center">
-                        <div class="name_error hide error">Введите имя</div>
-                        <div class="email_error hide error">Введите Email</div>
-                        <div class="email_val_error hide error"></div>
-                        <div class="message_error hide error">Введите сообщение</div>
-                    </div>
-                    <div class="Sucess"></div>
-
-                    <form role="form" action="contact.php">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <input type="text" class="form-control" id="name" placeholder="Имя">
-                                <input type="email" class="form-control" id="email" placeholder="Email">
-                                <input type="text" class="form-control" id="subject" placeholder="SТема">
-                            </div>
-
-
-                            <div class="col-md-8">
-                                <textarea class="form-control" id="message" rows="25" cols="10" placeholder="  Ваше сообщение..."></textarea>
-                                <button type="button" class="btn btn-default submit-btn form_submit">Отправить сообщение</button>
-                            </div>
-                        </div>
-                    </form>
-
-                </div>
-            </div>
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 wow bounceInLeft">
-                        <div class="social_icons">
-                            <ul>
-                                <li><a href=""><i class="fa fa-dribbble"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="mouse-icon hidden-xs">
+				<div class="scroll"></div>
+			</div>
+    
+    <section id="be-the-first" class="pad-xl">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2 text-center margin-30 wow fadeIn" data-wow-delay="0.6s">
+            <h2>Почему мы</h2>
+            <p class="lead"></p>
+          </div>
         </div>
+        
+        <div class="iphone wow fadeInUp" data-wow-delay="1s">
+	        <img src="img/iphone.png">
+        </div>
+      </div>
     </section>
     
-    <section class="copyright">
-        <h2></h2>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="copy_right_text">
-                    
-                        <p>Все права защищены &copy; 2018. WebDev</p>        
-                        <p>Работаем с 2018<a href="https://dcrazed.net/"></a></p>
-                    </div>
-                     
-                </div>
-
-                <div class="col-md-6">
-                    <div class="scroll_top">
-                        <a href="#HOME"><i class="fa fa-angle-up"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section id="main-info" class="pad-xl">
+	    <div class="container">
+		    <div class="row">
+			    <div class="col-sm-4 wow fadeIn" data-wow-delay="0.4s">
+				    <hr class="line purple">
+				    <h3>Быстро</h3>
+				    <p>Наши программисты напишут сайт для вас быстро, т.к. мы ценим ваше время</p>
+			    </div>
+			    <div class="col-sm-4 wow fadeIn" data-wow-delay="0.8s">
+				    <hr  class="line blue">
+				    <h3>Качественно</h3>
+				    <p>Наши программисты напишут вам сайт качественно, т.к. мы ценим наших покупателей</p>
+			    </div>
+			    <div class="col-sm-4 wow fadeIn" data-wow-delay="1.2s">
+				    <hr  class="line yellow">
+				    <h3>Выгодные цены</h3>
+				    <p>Наши программисты напишут ваш сайт недорого, т.к. мы понимаем наших покупателей</p>
+			    </div>
+		    </div>
+	    </div>
     </section>
+        
+        
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.js"></script>
-    <script src="js/jquery.fitvids.js"></script>
-    <script src="js/smoothscroll.js"></script>
-    <script src="js/jquery.parallax-1.1.3.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.ajaxchimp.langs.js"></script>
+    <section id="pricing" class="pad-lg">
+      <div class="container">
+        <div class="row margin-40">
+          <div class="col-sm-8 col-sm-offset-2 text-center">
+            <h2 class="white">Цены</h2>
+            <p class="white">Здесь вы найдете цены на сайты</p>
+          </div>
+        </div>
+        
+        <div class="row margin-50">
+          
+          <div class="col-sm-4 pricing-container wow fadeInUp" data-wow-delay="1s">
+            <br />
+            <ul class="list-unstyled pricing-table text-center">
+    					<li class="headline"><h5 class="white">Landing page</h5></li>
+    					<li class="price"><div class="amount">₽4000 | $57<small></small></div></li>
+    					<li class="info">Landing page дословно переводится с английского: «целевая» или «посадочная страница».</li>
+    					<li class="features last btn btn-secondary btn-wide"><a href="https://vk.com/web_store_rus">Заказать сайт у нас</a></li>
+    				</ul>
+          </div>
+          
+          <div class="col-sm-4 pricing-container wow fadeInUp" data-wow-delay="0.4s">
+            <ul class="list-unstyled pricing-table active text-center">
+    					<li class="headline"><h5 class="white">Интернет магазин</h5></li>
+    					<li class="price"><div class="amount">₽8000 | $114<small></small></div></li>
+    					<li class="info">Красивый  интернет - магазин для вас (Цена может варьироваться от количества страниц на сайте)</li>  
+
+    					<li class="features last btn btn-secondary btn-wide"><a href="https://vk.com/web_store_rus">Заказать сайт у нас</a></li>
+    				</ul>
+          </div>
+          
+          <div class="col-sm-4 pricing-container wow fadeInUp" data-wow-delay="1.3s">
+            <br />
+            <ul class="list-unstyled pricing-table text-center">
+    					<li class="headline"><h5 class="white">Многостраничный сайт</h5></li>
+    					<li class="price"><div class="amount">500₽/стр | 7.5$/стр<small></small></div></li>
+    					<li class="info">Любой сайт 
+                <p> </p></li>
+
+    					<li href="https://vk.com/web_store_rus" class="features last btn btn-secondary btn-wide"><a href="https://vk.com/web_store_rus">Заказать сайт у нас
+    				</ul>
+          </div>
+          
+        </div>
+        
+      </div>
+    </section>
+    
+    
+    <section id="invite" class="pad-lg light-gray-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2 text-center">
+            <i class="fa fa-envelope-o margin-40"></i>
+            <h2 class="black">Заказать сайт</h2>
+            <br />
+            <p class="black">Для этого надо просто написать нам в вк и наш менеджер напишет вам</p>
+            <br />
+            
+            <div class="row">
+              <div  class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                <form  role="form">
+                 
+                  <button type="submit"  class="btn btn-primary btn-lg">
+                  <a href="https://vk.com/web_store_rus">
+                  VK    
+                  </a>
+                  
+                  </button>
+                </form>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <section id="press" class="pad-sm">
+      <div class="container">
+        
+        <div class="row margin-30 news-container">
+          <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft" data-wow-delay="0.8s">
+            <a href="#" target="_blank">
+            <img class="news-img pull-left" src="img/press-01.jpg" alt="Tech Crunch">
+            <p class="black">Наш заказчик<br /> 
+            <small><em>НАШ ЗАКАЗЧИК</em></small></p>
+            </a>
+          </div>
+        </div>
+        
+        <div class="row margin-30 news-container">
+          <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInLeft" data-wow-delay="1.2s">
+            <a href="#" target="_blank">
+            <img class="news-img pull-left" src="img/press-02.jpg" alt="Forbes">
+            <p class="black">НАШ ЗАКАЗЧИК <br /> 
+            <small><em>НАШ ЗАКАЗЧИК</em></small></p>
+            </a>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    
+    
+    <footer>
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-sm-8 margin-20">
+            <ul class="list-inline social">
+              <li>Мы в соцсетях</li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+          </div>
+          
+          <div class="col-sm-4 text-right">
+            <p><small>Все права защищены &copy; 2019. <br>
+	            </a></small></p>
+          </div>
+        </div>
+        
+      </div>
+    </footer>
+    
+    
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
     <script src="js/wow.min.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/script.js"></script>
-    
-</body>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+   
+    </body>
 </html>
